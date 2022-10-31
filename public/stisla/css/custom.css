@@ -1,0 +1,54 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+body {
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;;
+    color: #6c757d; }
+
+    .card {
+        box-shadow: 0 12px 24px -6px rgb(9 30 66 / 25%),
+        0 0 1px 0 rgb(9 30 66 / 31%);
+        background-color: #fff;
+        border-radius: 8px;
+        border: none;
+        position: relative;
+        margin-bottom: 6px; }
+        .card .card-header, .card .card-body, .card .card-footer {
+            background-color: transparent;
+            padding: 20px 25px; }
+            .card .navbar {
+            position: static; }
+            .card .card-body {
+            padding-top: 20px;
+            padding-bottom: 20px; }
+            .card .card-body .section-title {
+                margin: 30px 0 10px 0;
+                font-size: 16px; }
+                .card .card-body .section-title:before {
+                margin-top: 8px; }
+            .card .card-body .section-title + .section-lead {
+                margin-top: -5px; }
+            .card .card-body p {
+                font-weight: 500; }
+
+                h6 {
+                    font-size: 16px; 
+                    font-weight: 700;}
+
+                    h4 {
+                        font-size: 20px; 
+                        font-weight: 600;
+                        color: #000; }
+
+
+/*# sourceMappingURL=custom.css.map */
